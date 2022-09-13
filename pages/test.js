@@ -25,7 +25,7 @@ export async function getStaticProps({ resolvedUrl }) {
 
 function App(props) {
 	const router = useRouter()
-	console.log(router)
+	console.log('\n Router info: ', router)
 
 	return <div></div>
 }
